@@ -6904,6 +6904,6 @@ var FindProxyForURL = function(init, profiles) {
     "+proxy": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
-        return "HTTPS netherlands-https-3.cloudnetcdn.com:443";
+        return "HTTPS lqpnzu7vif2rapji.angela.run:443";
     }
 });
