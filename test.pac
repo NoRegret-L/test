@@ -6904,6 +6904,6 @@ var FindProxyForURL = function(init, profiles) {
     "+proxy": function(url, host, scheme) {
         "use strict";
         if (/^127\.0\.0\.1$/.test(host) || /^::1$/.test(host) || /^localhost$/.test(host)) return "DIRECT";
-        return "HTTPS lqpnzu7vif2rapji.angela.run:443";
+        return "HTTPS fstnb.astarcyt.xyz:1497";
     }
 });
